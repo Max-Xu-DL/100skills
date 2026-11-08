@@ -1,0 +1,16 @@
+{
+  "series": "100 Skills Worth Keeping",
+  "curator": "AIMax",
+  "skills": [
+    {
+      "issue": "001",
+      "slug": "brand-voice",
+      "path": "skills/brand-voice",
+      "download": "001-brand-voice-v1.0.0.zip",
+      "sha256": "2cc455f777a3b808614085a13a2c7e901c1ef6ffbd80fc45a76bdeeecf04a5b3",
+      "trace_score_5": 3.4,
+      "source": "https://github.com/arnabbagxd/Brand-building-skills",
+      "license": "MIT"
+    }
+  ]
+}
