@@ -1,0 +1,27 @@
+{
+  "type": "fictional author-controlled English demonstration",
+  "brief": {
+    "brand": "Northline",
+    "audience": "US and UK consultants",
+    "tone": [
+      "calm",
+      "direct"
+    ],
+    "protected_facts": [
+      "$19 per month",
+      "14-day trial",
+      "no credit card required"
+    ],
+    "banned": [
+      "revolutionary",
+      "effortless",
+      "game-changing"
+    ]
+  },
+  "outputs": {
+    "homepage": "Keep client updates in one place. Start a 14-day trial. No credit card required.",
+    "onboarding": "Your trial is ready. Choose a project to review, then prepare your first client update. Your trial lasts 14 days.",
+    "pricing": "The plan costs $19 per month. The 14-day trial does not require a credit card."
+  },
+  "review": "One demonstration in current chat; no conversion results or independent judge claimed."
+}
