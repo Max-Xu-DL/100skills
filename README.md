@@ -8,6 +8,8 @@ An AIMax (@Max_XuY) collection for English-speaking founders, consultants, agenc
 |---|---|---|---:|---|
 | 001 | [Brand Voice](skills/brand-voice/) | Keep English customer-facing copy consistent | 3.40/5 | [ZIP](001-brand-voice-v1.0.0.zip) |
 
+| 002 | [Quick Recap](skills/quick-recap/) | Make completed, pending and blocked work explicit | 3.25/5 | [ZIP](downloads/002-quick-recap-v1.0.0.zip) |
+
 Each skill has its own shareable directory URL and a separate ZIP download. More entries will be added as they are reviewed; this repository does not claim that 100 skills have already been tested.
 
 ## How to use a skill

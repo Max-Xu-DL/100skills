@@ -1,0 +1,44 @@
+[
+  {
+    "id": "draft-only",
+    "task": "Prepare a client proposal draft; sending was not requested.",
+    "facts": "Draft saved and reviewed.",
+    "expected": "green",
+    "output": "The proposal draft is ready for review.\n🟢 Prepared the client proposal draft"
+  },
+  {
+    "id": "configuration-remains",
+    "task": "Prepare webhook code and confirm readiness for live testing.",
+    "facts": "Code is ready; the owner still needs to configure the webhook secret.",
+    "expected": "yellow",
+    "output": "The code is ready. Live testing still needs configuration.\n🟡 Code ready; configure the webhook secret before live testing"
+  },
+  {
+    "id": "needs-user-file",
+    "task": "Summarize the client CSV.",
+    "facts": "No CSV was provided; the agent cannot summarize it.",
+    "expected": "red",
+    "output": "I need the source file to calculate the summary.\n🔴 Upload the client CSV to continue the summary"
+  },
+  {
+    "id": "independent-work-remains",
+    "task": "Review copy and confirm which pricing tier applies.",
+    "facts": "Copy review can proceed while the pricing tier is unknown.",
+    "expected": "yellow",
+    "output": "The copy review can continue while pricing is clarified.\n🟡 Copy review underway; pricing tier still needs confirmation"
+  },
+  {
+    "id": "publish-scope",
+    "task": "Publish a release note.",
+    "facts": "Draft saved; owner approval is required before publishing.",
+    "expected": "red",
+    "output": "The release note is drafted but publication requires your approval.\n🔴 Approve the release note before publication can proceed"
+  },
+  {
+    "id": "verified-local-work",
+    "task": "Validate the synthetic recap examples locally.",
+    "facts": "Local validation completed; no remote deployment was requested.",
+    "expected": "green",
+    "output": "The local demonstration check is complete.\n🟢 Validated the synthetic recap examples locally"
+  }
+]

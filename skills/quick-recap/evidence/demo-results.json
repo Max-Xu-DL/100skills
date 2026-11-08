@@ -1,0 +1,68 @@
+{
+  "method": "deterministic checks of AIMax-authored English fixtures; expected semantic labels supplied by AIMax",
+  "not_measured": [
+    "independent model compliance",
+    "host installation",
+    "installer execution",
+    "customer outcomes"
+  ],
+  "python": "3.11.15",
+  "platform": "darwin",
+  "fixture_results": [
+    {
+      "id": "draft-only",
+      "expected": "green",
+      "last_line_characters": 36,
+      "passed": true
+    },
+    {
+      "id": "configuration-remains",
+      "expected": "yellow",
+      "last_line_characters": 62,
+      "passed": true
+    },
+    {
+      "id": "needs-user-file",
+      "expected": "red",
+      "last_line_characters": 47,
+      "passed": true
+    },
+    {
+      "id": "independent-work-remains",
+      "expected": "yellow",
+      "last_line_characters": 61,
+      "passed": true
+    },
+    {
+      "id": "publish-scope",
+      "expected": "red",
+      "last_line_characters": 57,
+      "passed": true
+    },
+    {
+      "id": "verified-local-work",
+      "expected": "green",
+      "last_line_characters": 48,
+      "passed": true
+    }
+  ],
+  "negative_checks": [
+    {
+      "id": "trailing-content",
+      "rejected": true
+    },
+    {
+      "id": "overlength",
+      "rejected": true
+    },
+    {
+      "id": "spacer",
+      "rejected": true
+    },
+    {
+      "id": "wrong-color",
+      "rejected": true
+    }
+  ],
+  "passed": true
+}

@@ -11,6 +11,16 @@
       "trace_score_5": 3.4,
       "source": "https://github.com/arnabbagxd/Brand-building-skills",
       "license": "MIT"
+    },
+    {
+      "issue": "002",
+      "slug": "quick-recap",
+      "path": "skills/quick-recap",
+      "download": "downloads/002-quick-recap-v1.0.0.zip",
+      "sha256": "0755ed3bc6704b59b346167b1e65e9a8a687da460f76a34092afaa94d146c410",
+      "trace_score_5": 3.25,
+      "source": "https://github.com/BuilderIO/skills/tree/f4f10b8d513476c24bd995ceac5294bcdd6ee15c/skills/quick-recap",
+      "license": "MIT"
     }
   ]
 }

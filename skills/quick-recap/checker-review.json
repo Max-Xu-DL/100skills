@@ -1,0 +1,142 @@
+{
+  "protocol": "skill-trace-checker 2.0.0",
+  "source_commit": "8e96b838746546aed3c77061e3e5ae7c15a83871",
+  "status": "complete",
+  "review_type": "AI content rubric assessment, not runtime benchmark",
+  "target": "unmodified source SKILL.md and README.md, excluding AIMax additions",
+  "target_sha256": "99cc768cd2ae40a75cf7bafc2be9495cf4ee7cc977dd6c752794df0f82a9a51c",
+  "item_id_mapping": "Checker table order: T1 China localization, T2 safety; companion structural evaluator uses different T1/T2 order. Labels are authoritative.",
+  "overall_5": 3.25,
+  "dimension_scores_5": {
+    "T": 3.0,
+    "R": 3.375,
+    "A": 3.375,
+    "C": 2.75,
+    "E": 3.75
+  },
+  "strict_gate": "not-passed",
+  "editorial_decision": "accepted for a narrowly scoped English handoff convention, with explicit installation and evidence limitations",
+  "items": [
+    {
+      "id": "T1",
+      "label": "China localization",
+      "score": 2,
+      "rationale": "SKILL.md: English-only instructions and examples; does not meet the original Chinese-localization criterion."
+    },
+    {
+      "id": "T2",
+      "label": "Safety",
+      "score": 4,
+      "rationale": "SKILL.md: declarative formatting instructions, no executable files or account access; installer behavior changes persistent instructions, without an explicit safety checklist."
+    },
+    {
+      "id": "T3",
+      "label": "Boundary transparency",
+      "score": 3.5,
+      "rationale": "SKILL.md: narrow footer task and automatic/manual distinction are explicit; no three-class boundary section."
+    },
+    {
+      "id": "T4",
+      "label": "Data privacy",
+      "score": 2.5,
+      "rationale": "SKILL.md: no data transport code; no redaction guidance for status text or credentials."
+    },
+    {
+      "id": "R1",
+      "label": "Exception handling",
+      "score": 3.5,
+      "rationale": "SKILL.md: yellow names a pending item and red identifies needed input; no handling of contradictory task evidence."
+    },
+    {
+      "id": "R2",
+      "label": "Functional completeness",
+      "score": 4,
+      "rationale": "SKILL.md: all three states, output location and length are specified for this narrow task."
+    },
+    {
+      "id": "R3",
+      "label": "Stability with ambiguity",
+      "score": 3,
+      "rationale": "SKILL.md: choose from the user perspective; no explicit mixed-state or unknown-evidence policy."
+    },
+    {
+      "id": "R4",
+      "label": "Fallback",
+      "score": 3,
+      "rationale": "SKILL.md: manual use is offered; no instruction-conflict or unsupported-host fallback procedure."
+    },
+    {
+      "id": "A1",
+      "label": "Capability boundaries",
+      "score": 3.5,
+      "rationale": "SKILL.md: response footer convention is specific; lacks three groups with three examples each."
+    },
+    {
+      "id": "A2",
+      "label": "Trigger precision",
+      "score": 4,
+      "rationale": "SKILL.md frontmatter and Status Block: intent and completed-unit trigger are clear; nested partial units are not defined."
+    },
+    {
+      "id": "A3",
+      "label": "Audience breadth",
+      "score": 3.5,
+      "rationale": "README.md: multiple agents, long-running work and partial handoffs are named; no host-specific onboarding."
+    },
+    {
+      "id": "A4",
+      "label": "Customization",
+      "score": 2.5,
+      "rationale": "SKILL.md: manual following supported; no supported preference or customization interface."
+    },
+    {
+      "id": "C1",
+      "label": "Progressive disclosure",
+      "score": 2.5,
+      "rationale": "README.md and SKILL.md provide short entry and detail; no deep references layer."
+    },
+    {
+      "id": "C2",
+      "label": "Structure clarity",
+      "score": 4.5,
+      "rationale": "SKILL.md: brief named sections, bullet rules and three clear examples."
+    },
+    {
+      "id": "C3",
+      "label": "Anti-patterns",
+      "score": 3,
+      "rationale": "SKILL.md: forbids trailing content, separators and spacer lines; no three bad/good comparison cases."
+    },
+    {
+      "id": "C4",
+      "label": "FAQ depth",
+      "score": 1,
+      "rationale": "SKILL.md and README.md: no FAQ or deep FAQ."
+    },
+    {
+      "id": "E1",
+      "label": "Output accuracy",
+      "score": 3.5,
+      "rationale": "SKILL.md: actual concise status and user-perspective state required; no explicit evidence-verification step."
+    },
+    {
+      "id": "E2",
+      "label": "Content completeness",
+      "score": 4,
+      "rationale": "SKILL.md: narrow three-state convention is covered; mixed-state and no-evidence edge cases absent."
+    },
+    {
+      "id": "E3",
+      "label": "Added value",
+      "score": 3.5,
+      "rationale": "SKILL.md: semantic distinction, length bound and persistent/manual modes; few additional features by design."
+    },
+    {
+      "id": "E4",
+      "label": "Ready to use",
+      "score": 4,
+      "rationale": "README.md: install command; SKILL.md has three copyable output examples; installer itself not present in snapshot."
+    }
+  ],
+  "structural_base_5": 3.75
+}
