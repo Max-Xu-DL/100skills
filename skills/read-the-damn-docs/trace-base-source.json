@@ -1,0 +1,245 @@
+{
+  "skill_dir": "source-snapshot/read-the-damn-docs",
+  "skill_name": "read-the-damn-docs",
+  "generated_at": "2026-11-09T22:04:27.237710Z",
+  "frontmatter": {
+    "name": "read-the-damn-docs",
+    "name_valid": true,
+    "name_matches_dir": true,
+    "description": ">-",
+    "description_length": 2,
+    "description_valid": true,
+    "license": ""
+  },
+  "body": {
+    "body_lines": 114,
+    "body_chars": 6438,
+    "has_chinese": false,
+    "has_workflow_steps": false,
+    "step_count": 0,
+    "has_rules_section": false,
+    "has_gotchas_section": false,
+    "has_validation": true,
+    "has_boundary": false,
+    "has_when_to_use": false,
+    "has_trigger_hints": true,
+    "has_security_declaration": false,
+    "cli_sections_count": 0,
+    "bash_blocks_count": 0,
+    "tool_reference_count": 0,
+    "prompt_keyword_count": 0,
+    "gotchas_count": 7,
+    "skill_type": "doc"
+  },
+  "directory": {
+    "has_scripts": false,
+    "scripts_files": 0,
+    "has_references": false,
+    "references_files": 0,
+    "references_subdirs": 0,
+    "has_examples": false,
+    "examples_files": 0,
+    "has_license_file": false,
+    "ref_names": []
+  },
+  "safety": {
+    "secrets_detected": false,
+    "secret_findings": [],
+    "has_interactive_patterns": []
+  },
+  "base_scores": {
+    "T": {
+      "avg": 3.58,
+      "sub_items": {
+        "T1": {
+          "base": 4.8,
+          "formula": "4.5 + (no_scripts:True ? +0.3 : -0.3) + (secdecl:False ? +0.2 : 0) - (secrets_detected:False ? -1.0 : 0)",
+          "evidence": {
+            "secrets_detected": false,
+            "has_scripts": false,
+            "has_security_declaration": false
+          }
+        },
+        "T2": {
+          "base": 2.0,
+          "formula": "has_chinese=False \u2192 2.0",
+          "evidence": {
+            "has_chinese": false
+          }
+        },
+        "T3": {
+          "base": 3.0,
+          "formula": "boundary=False(+0.3) + when_to_use=False(+0.3) off 4.5 base \u2192 3.0",
+          "evidence": {
+            "has_boundary": false,
+            "has_when_to_use": false
+          }
+        },
+        "T4": {
+          "base": 4.5,
+          "formula": "4.5 + (secdecl:False ? +0.5 : 0) - (has_scripts:False ? -0.2 : 0)",
+          "evidence": {
+            "has_security_declaration": false,
+            "has_scripts": false
+          }
+        }
+      }
+    },
+    "R": {
+      "avg": 3.55,
+      "sub_items": {
+        "R1": {
+          "base": 3.0,
+          "formula": "gotchas=False\u21924.0 + (validation:True ? +0.5)",
+          "evidence": {
+            "has_gotchas_section": false,
+            "has_validation": true
+          }
+        },
+        "R2": {
+          "base": 3.5,
+          "formula": "WF=False(0steps) CLI=0 exs=0 type=doc \u2192 3.5",
+          "evidence": {
+            "has_workflow_steps": false,
+            "step_count": 0,
+            "cli_sections_count": 0,
+            "examples_files": 0
+          }
+        },
+        "R3": {
+          "base": 4.2,
+          "formula": "gotchas=False rules=False validation=True \u2192 4.2",
+          "evidence": {
+            "has_gotchas_section": false,
+            "has_rules_section": false,
+            "has_validation": true
+          }
+        },
+        "R4": {
+          "base": 3.5,
+          "formula": "boundary=False \u2192 3.5",
+          "evidence": {
+            "has_boundary": false
+          }
+        }
+      }
+    },
+    "A": {
+      "avg": 3.88,
+      "sub_items": {
+        "A1": {
+          "base": 4.0,
+          "formula": "boundary=False + when_to_use=False \u2192 4.0",
+          "evidence": {
+            "has_boundary": false,
+            "has_when_to_use": false
+          }
+        },
+        "A2": {
+          "base": 3.5,
+          "formula": "description_length=2 valid=True \u2192 3.5",
+          "evidence": {
+            "description_length": 2,
+            "description_valid": true
+          }
+        },
+        "A3": {
+          "base": 4.0,
+          "formula": "chinese=False \u2192 4.0",
+          "evidence": {
+            "has_chinese": false
+          }
+        },
+        "A4": {
+          "base": 4.0,
+          "formula": "type=doc exs=0 refs=0 \u2192 4.0",
+          "evidence": {
+            "skill_type": "doc",
+            "examples_files": 0,
+            "references_files": 0
+          }
+        }
+      }
+    },
+    "C": {
+      "avg": 3.75,
+      "sub_items": {
+        "C1": {
+          "base": 3.5,
+          "formula": "type=doc exs=0>=10 \u2192 3.5",
+          "evidence": {
+            "skill_type": "doc",
+            "examples_files": 0
+          }
+        },
+        "C2": {
+          "base": 3.0,
+          "formula": "type=doc refs=0 body=114 trigger_hints=True \u2192 3.0",
+          "evidence": {
+            "references_files": 0,
+            "body_lines": 114,
+            "has_trigger_hints": true
+          }
+        },
+        "C3": {
+          "base": 4.7,
+          "formula": "name_valid=True name_matches=True ref_subdirs=0 \u2192 4.7",
+          "evidence": {
+            "name_valid": true,
+            "name_matches_dir": true,
+            "references_subdirs": 0
+          }
+        },
+        "C4": {
+          "base": 3.8,
+          "formula": "gotchas_section=False gotchas_count\u22487 \u2192 3.8",
+          "evidence": {
+            "has_gotchas_section": false,
+            "gotchas_count_approx": 7
+          }
+        }
+      }
+    },
+    "E": {
+      "avg": 3.9,
+      "sub_items": {
+        "E1": {
+          "base": 4.3,
+          "formula": "type=doc WF=False validation=True \u2192 4.3",
+          "evidence": {
+            "skill_type": "doc",
+            "has_workflow_steps": false,
+            "has_validation": true
+          }
+        },
+        "E2": {
+          "base": 3.0,
+          "formula": "type=doc exs=0>=5 \u2192 3.0",
+          "evidence": {
+            "skill_type": "doc",
+            "examples_files": 0
+          }
+        },
+        "E3": {
+          "base": 4.0,
+          "formula": "ref_subdirs=0 refs=0 \u2192 4.0",
+          "evidence": {
+            "references_subdirs": 0,
+            "references_files": 0
+          }
+        },
+        "E4": {
+          "base": 4.3,
+          "formula": "WF=False val=True gotchas=False cli_secs=0 \u2192 4.3",
+          "evidence": {
+            "has_workflow_steps": false,
+            "has_validation": true,
+            "has_gotchas_section": false,
+            "cli_sections_count": 0
+          }
+        }
+      }
+    },
+    "overall": 3.73
+  }
+}

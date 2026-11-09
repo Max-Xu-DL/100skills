@@ -1,0 +1,61 @@
+{
+  "method": "AIMax-controlled loopback reproduction after reading official HTTPX docs",
+  "httpx_version": "0.28.1",
+  "python": "3.11.15",
+  "platform": "Darwin",
+  "external_requests_during_demo": 0,
+  "configuration_check": {
+    "id": "default-config",
+    "timeout_seconds": {
+      "connect": 5.0,
+      "read": 5.0,
+      "write": 5.0,
+      "pool": 5.0
+    },
+    "passed": true
+  },
+  "requests": [
+    {
+      "id": "immediate",
+      "timeout_seconds": 0.2,
+      "expected": "success",
+      "observed": "success",
+      "body": "ok",
+      "elapsed_seconds": 0.0018,
+      "passed": true
+    },
+    {
+      "id": "delayed-first-byte",
+      "timeout_seconds": 0.2,
+      "expected": "ReadTimeout",
+      "observed": "ReadTimeout",
+      "body": null,
+      "elapsed_seconds": 0.2029,
+      "passed": true
+    },
+    {
+      "id": "stream-beyond-interval",
+      "timeout_seconds": 0.2,
+      "expected": "success",
+      "observed": "success",
+      "body": "xxxxxxxx",
+      "elapsed_seconds": 0.7212,
+      "passed": true
+    },
+    {
+      "id": "timeouts-disabled",
+      "timeout_seconds": null,
+      "expected": "success",
+      "observed": "success",
+      "body": "delayed",
+      "elapsed_seconds": 0.5071,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limits": [
+    "single local run per request scenario",
+    "not a production reliability benchmark",
+    "does not test automatic skill activation or independent model behavior"
+  ]
+}

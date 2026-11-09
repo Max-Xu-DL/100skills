@@ -21,6 +21,16 @@
       "trace_score_5": 3.25,
       "source": "https://github.com/BuilderIO/skills/tree/f4f10b8d513476c24bd995ceac5294bcdd6ee15c/skills/quick-recap",
       "license": "MIT"
+    },
+    {
+      "issue": "003",
+      "slug": "read-the-damn-docs",
+      "path": "skills/read-the-damn-docs",
+      "download": "downloads/003-read-the-damn-docs-v1.0.0.zip",
+      "sha256": "f4e5f63f70d5bfb87d99a9ea972165555b99ae22e7341d3ac2bbf9733a4a257b",
+      "trace_score_5": 3.7,
+      "source": "https://github.com/BuilderIO/skills/tree/f4f10b8d513476c24bd995ceac5294bcdd6ee15c/skills/read-the-damn-docs",
+      "license": "MIT"
     }
   ]
 }

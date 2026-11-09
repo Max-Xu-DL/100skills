@@ -1,0 +1,143 @@
+{
+  "protocol": "skill-trace-checker 2.0.0",
+  "checker_source_commit": "8e96b838746546aed3c77061e3e5ae7c15a83871",
+  "target": "unmodified Builder.io source snapshot, excluding AIMax additions",
+  "target_sha256": "f4550c1112090e5f08f7d63354c1416e4ca3969910ea535faf7946e459c0740d",
+  "source_pin": "f4f10b8d513476c24bd995ceac5294bcdd6ee15c",
+  "review_type": "AI content rubric review, not runtime benchmark",
+  "status": "complete",
+  "overall_5": 3.7,
+  "dimension_scores_5": {
+    "T": 3.25,
+    "R": 4.125,
+    "A": 3.75,
+    "C": 3.0,
+    "E": 4.375
+  },
+  "structural_base_5": 3.73,
+  "strict_gate": "not-passed",
+  "item_mapping": "Checker table order; T1 China localization, T2 safety. The companion evaluator uses a different T1/T2 ordering.",
+  "editorial_acceptance": "accepted for English documentation-grounded technical work; independently observed HTTPX behavior supports the workflow demonstration, not a causal improvement claim",
+  "items": [
+    {
+      "id": "T1",
+      "criterion": "China localization",
+      "score": 2,
+      "evidence": "SKILL.md and README.md are English; fail the original rubric\u2019s Chinese-localization preference."
+    },
+    {
+      "id": "T2",
+      "criterion": "Safety",
+      "score": 4,
+      "evidence": "SKILL.md Docs-First Triggers: auth, secrets, security and billing require authoritative docs; no explicit prohibited-actions list or execution controls."
+    },
+    {
+      "id": "T3",
+      "criterion": "Boundary transparency",
+      "score": 4,
+      "evidence": "SKILL.md When A Quick Local Read Is Enough / If Docs Are Unavailable: differentiates external contracts, local work and missing docs; lacks formal three-class examples."
+    },
+    {
+      "id": "T4",
+      "criterion": "Data privacy",
+      "score": 3,
+      "evidence": "SKILL.md flags PII, retention and privacy as docs-required; does not specify redaction or sensitive-data handling procedures."
+    },
+    {
+      "id": "R1",
+      "criterion": "Exception handling",
+      "score": 4,
+      "evidence": "SKILL.md If Docs Are Unavailable: disclose missing access, narrow uncertainty and inspect source/types; no missing-input message schema."
+    },
+    {
+      "id": "R2",
+      "criterion": "Functional completeness",
+      "score": 4.5,
+      "evidence": "SKILL.md Required Workflow: identifies surface/version, retrieves docs, extracts facts, implements, verifies and cites evidence in seven steps."
+    },
+    {
+      "id": "R3",
+      "criterion": "Stability under ambiguity",
+      "score": 4,
+      "evidence": "SKILL.md: inspect source/types and report code/doc discrepancies; explicitly avoids confirmed-current claims without docs. No fixed stopping budget."
+    },
+    {
+      "id": "R4",
+      "criterion": "Fallback",
+      "score": 4,
+      "evidence": "SKILL.md: local docs, source/types, then explicit uncertainty when docs unavailable; no detailed multi-task prioritization."
+    },
+    {
+      "id": "A1",
+      "criterion": "Capability boundaries",
+      "score": 4,
+      "evidence": "SKILL.md: local-only work can skip browsing, external/version-sensitive behavior requires docs; boundary is clear but not three-class formatted."
+    },
+    {
+      "id": "A2",
+      "criterion": "Trigger precision",
+      "score": 4.5,
+      "evidence": "SKILL.md frontmatter, trigger list and concrete examples distinguish package setup, provider behavior, drift errors and internal contracts."
+    },
+    {
+      "id": "A3",
+      "criterion": "Audience breadth",
+      "score": 3.5,
+      "evidence": "README.md and examples suit developers using integrations, SDKs and repo contracts; no experience-specific or team onboarding."
+    },
+    {
+      "id": "A4",
+      "criterion": "Customization",
+      "score": 3,
+      "evidence": "SKILL.md: exact package/version/surface provides context; no explicit preference card or customization interface."
+    },
+    {
+      "id": "C1",
+      "criterion": "Progressive disclosure",
+      "score": 3,
+      "evidence": "README.md entry plus SKILL.md details; no deep references layer."
+    },
+    {
+      "id": "C2",
+      "criterion": "Structure clarity",
+      "score": 4.5,
+      "evidence": "SKILL.md: semantic headings, numbered seven-step workflow and concrete trigger examples; agents/openai.yaml has clear UI entry metadata."
+    },
+    {
+      "id": "C3",
+      "criterion": "Anti-patterns",
+      "score": 3.5,
+      "evidence": "SKILL.md: avoid memory, random snippets and unconfirmed-current claims; lacks three paired bad/good examples."
+    },
+    {
+      "id": "C4",
+      "criterion": "FAQ depth",
+      "score": 1,
+      "evidence": "No main FAQ or deep FAQ in the original source snapshot."
+    },
+    {
+      "id": "E1",
+      "criterion": "Output accuracy",
+      "score": 4.5,
+      "evidence": "SKILL.md: read actual docs, verify smallest reproduction, cite evidence and disclose missing docs; does not guarantee correct interpretation."
+    },
+    {
+      "id": "E2",
+      "criterion": "Content completeness",
+      "score": 4.5,
+      "evidence": "SKILL.md: version, source authority, implementation, discrepancies, verification and final attribution cover the stated docs-first task."
+    },
+    {
+      "id": "E3",
+      "criterion": "Added value",
+      "score": 4,
+      "evidence": "SKILL.md: version verification, local-contract precedence, high-stakes triggers and source/types fallback add value beyond generic search."
+    },
+    {
+      "id": "E4",
+      "criterion": "Ready to use",
+      "score": 4.5,
+      "evidence": "README.md: install command; SKILL.md: many copyable intent examples; agents/openai.yaml default prompt. No installer execution verified."
+    }
+  ]
+}

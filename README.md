@@ -10,6 +10,8 @@ An AIMax (@Max_XuY) collection for English-speaking founders, consultants, agenc
 
 | 002 | [Quick Recap](skills/quick-recap/) | Make completed, pending and blocked work explicit | 3.25/5 | [ZIP](downloads/002-quick-recap-v1.0.0.zip) |
 
+| 003 | [Read The Damn Docs](skills/read-the-damn-docs/) | Verify versioned behavior with authoritative docs and a small reproduction | 3.70/5 | [ZIP](downloads/003-read-the-damn-docs-v1.0.0.zip) |
+
 Each skill has its own shareable directory URL and a separate ZIP download. More entries will be added as they are reviewed; this repository does not claim that 100 skills have already been tested.
 
 ## How to use a skill
