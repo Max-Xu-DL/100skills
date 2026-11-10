@@ -1,0 +1,18 @@
+{
+  "scenario_type": "fictional English SaaS positioning brief authored by AIMax",
+  "brand": "Prooflane",
+  "audience": "small creative agencies with 2–10 people",
+  "category": "client approval workspace",
+  "customer_job": "record who approved a creative deliverable and when",
+  "facts": {
+    "F1": "Browser review links",
+    "F2": "Named approvers",
+    "F3": "Timestamped decision history",
+    "F4": "PDF exports",
+    "F5": "$29 per team per month"
+  },
+  "not_offered": ["Slack integration", "SOC 2 certification", "full project management"],
+  "unknown": ["market demand", "conversion lift", "time saved", "defensible moat"],
+  "alternatives_for_discussion": ["spreadsheet plus email", "shared-folder comments", "generic project board", "ad hoc approval messages"],
+  "alternative_map_status": "qualitative workshop assumptions, not market research"
+}

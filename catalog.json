@@ -31,6 +31,16 @@
       "trace_score_5": 3.7,
       "source": "https://github.com/BuilderIO/skills/tree/f4f10b8d513476c24bd995ceac5294bcdd6ee15c/skills/read-the-damn-docs",
       "license": "MIT"
+    },
+    {
+      "issue": "004",
+      "slug": "brand-positioning",
+      "path": "skills/brand-positioning",
+      "download": "downloads/004-brand-positioning-v1.0.0.zip",
+      "sha256": "d15aa86e9d504006db6e4598580ccd347936503757f5df46661d465b11edbb93",
+      "trace_score_5": 3.65,
+      "source": "https://github.com/arnabbagxd/Brand-building-skills/tree/4a0a8b5b7a0f64bf0fc551978a18a591670a5223/skills/brand-positioning",
+      "license": "MIT"
     }
   ]
 }

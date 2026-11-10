@@ -12,6 +12,8 @@ An AIMax (@Max_XuY) collection for English-speaking founders, consultants, agenc
 
 | 003 | [Read The Damn Docs](skills/read-the-damn-docs/) | Verify versioned behavior with authoritative docs and a small reproduction | 3.70/5 | [ZIP](downloads/003-read-the-damn-docs-v1.0.0.zip) |
 
+| 004 | [Brand Positioning](skills/brand-positioning/) | Tie a positioning promise to supplied facts and explicit assumptions | 3.65/5 | [ZIP](downloads/004-brand-positioning-v1.0.0.zip) |
+
 Each skill has its own shareable directory URL and a separate ZIP download. More entries will be added as they are reviewed; this repository does not claim that 100 skills have already been tested.
 
 ## How to use a skill

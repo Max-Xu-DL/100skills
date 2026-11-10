@@ -1,0 +1,41 @@
+{
+  "scenario_type": "fictional, AIMax-authored demonstration; not customer evidence",
+  "01_category_definition": {
+    "stated_category": "collaboration software",
+    "actual_comparison_in_this_brief": "client approval records across fragmented tools",
+    "opportunity_category": "client approval workspace",
+    "recommendation": "Use the narrow approval category because it matches the supplied job and product facts. This is a hypothesis to validate."
+  },
+  "02_competitive_landscape": {
+    "status": "qualitative workshop assumptions, not observed competitor capabilities or customer research",
+    "axes": ["approval record explicitness", "breadth of project workflow"],
+    "alternatives": [
+      {"name": "spreadsheet plus email", "hypothesis": "A manually maintained record across separate surfaces"},
+      {"name": "shared-folder comments", "hypothesis": "Discussion close to an asset; approval process depends on the chosen workflow"},
+      {"name": "generic project board", "hypothesis": "A broader project context that would need an explicit approval convention"},
+      {"name": "ad hoc approval messages", "hypothesis": "Informal messages that would need a separate durable decision record"}
+    ]
+  },
+  "03_positioning_territory": {
+    "space": "A visible approval record for creative deliverables",
+    "audience": "small creative agencies with 2–10 people",
+    "moat": "Not established by this brief. The listed features support the promise but do not prove that competitors cannot copy it."
+  },
+  "04_positioning_statement": {
+    "core": "For small creative agencies, Prooflane is a client approval workspace that makes named decisions visible through review links and timestamped decision history.",
+    "strategic": "Focus on the approval-record job for small creative agencies, supported by named approvers and timestamped history.",
+    "conversational": "Keep a clear record of who approved a creative deliverable and when."
+  },
+  "05_proof_points": [
+    {"fact_id": "F1", "text": "Browser review links"},
+    {"fact_id": "F2", "text": "Named approvers"},
+    {"fact_id": "F3", "text": "Timestamped decision history"},
+    {"fact_id": "F4", "text": "PDF exports"}
+  ],
+  "06_refusals": [
+    "Do not position this fictional product as full project management.",
+    "Do not promise Slack integration or SOC 2 certification.",
+    "Do not promise conversion lift, time saved or a defensible moat from this brief."
+  ],
+  "07_one_sentence": "Prooflane is a lightweight approval workspace for small creative agencies that need named decisions and timestamped review history without adopting another full project management system."
+}

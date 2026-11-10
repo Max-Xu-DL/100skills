@@ -1,0 +1,43 @@
+{
+  "method": "AIMax-authored English positioning report with deterministic guardrail checks",
+  "scenario": "fictional SaaS; no actual customer or competitor evidence",
+  "python": "3.11.15",
+  "checks": {
+    "seven_output_sections": true,
+    "specific_audience_retained": true,
+    "four_or_five_proof_points": true,
+    "proofs_match_supplied_fact_register": true,
+    "one_sentence_20_to_30_words": true,
+    "moat_remains_unproven": true,
+    "alternative_map_labeled_hypothetical": true,
+    "no_unsupported_core_claim": true
+  },
+  "one_sentence_words": 25,
+  "negative_cases": [
+    {
+      "id": "invented-proof",
+      "rejected": true
+    },
+    {
+      "id": "unsupported-feature",
+      "rejected": true
+    },
+    {
+      "id": "everyone-audience",
+      "rejected": true
+    },
+    {
+      "id": "overlong-summary",
+      "rejected": true
+    }
+  ],
+  "passed": true,
+  "not_measured": [
+    "independent model compliance",
+    "upstream eval execution",
+    "customer demand",
+    "conversion lift",
+    "time saved",
+    "competitive defensibility"
+  ]
+}
