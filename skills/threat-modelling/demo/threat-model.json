@@ -1,0 +1,304 @@
+{
+  "method": "AIMax follows source workflow; authored English workshop fixture",
+  "coverage": [
+    {
+      "element": "browser",
+      "category": "S",
+      "status": "considered",
+      "review_question": "Consider whether an identity or source can be impersonated in this scoped design."
+    },
+    {
+      "element": "browser",
+      "category": "T",
+      "status": "considered",
+      "review_question": "Consider unauthorized alteration of payload, metadata, or records."
+    },
+    {
+      "element": "browser",
+      "category": "R",
+      "status": "considered",
+      "review_question": "Consider whether an action lacks an attributable access record."
+    },
+    {
+      "element": "browser",
+      "category": "I",
+      "status": "considered",
+      "review_question": "Consider unauthorized disclosure of client files or metadata."
+    },
+    {
+      "element": "browser",
+      "category": "D",
+      "status": "considered",
+      "review_question": "Consider exhaustion or unavailability of this element or flow."
+    },
+    {
+      "element": "browser",
+      "category": "E",
+      "status": "considered",
+      "review_question": "Consider whether access exceeds the authenticated principal authority."
+    },
+    {
+      "element": "api",
+      "category": "S",
+      "status": "considered",
+      "review_question": "Consider whether an identity or source can be impersonated in this scoped design."
+    },
+    {
+      "element": "api",
+      "category": "T",
+      "status": "considered",
+      "review_question": "Consider unauthorized alteration of payload, metadata, or records."
+    },
+    {
+      "element": "api",
+      "category": "R",
+      "status": "considered",
+      "review_question": "Consider whether an action lacks an attributable access record."
+    },
+    {
+      "element": "api",
+      "category": "I",
+      "status": "considered",
+      "review_question": "Consider unauthorized disclosure of client files or metadata."
+    },
+    {
+      "element": "api",
+      "category": "D",
+      "status": "considered",
+      "review_question": "Consider exhaustion or unavailability of this element or flow."
+    },
+    {
+      "element": "api",
+      "category": "E",
+      "status": "considered",
+      "review_question": "Consider whether access exceeds the authenticated principal authority."
+    },
+    {
+      "element": "object-store",
+      "category": "S",
+      "status": "considered",
+      "review_question": "Consider whether an identity or source can be impersonated in this scoped design."
+    },
+    {
+      "element": "object-store",
+      "category": "T",
+      "status": "considered",
+      "review_question": "Consider unauthorized alteration of payload, metadata, or records."
+    },
+    {
+      "element": "object-store",
+      "category": "R",
+      "status": "considered",
+      "review_question": "Consider whether an action lacks an attributable access record."
+    },
+    {
+      "element": "object-store",
+      "category": "I",
+      "status": "considered",
+      "review_question": "Consider unauthorized disclosure of client files or metadata."
+    },
+    {
+      "element": "object-store",
+      "category": "D",
+      "status": "considered",
+      "review_question": "Consider exhaustion or unavailability of this element or flow."
+    },
+    {
+      "element": "object-store",
+      "category": "E",
+      "status": "considered",
+      "review_question": "Consider whether access exceeds the authenticated principal authority."
+    },
+    {
+      "element": "audit-log",
+      "category": "S",
+      "status": "considered",
+      "review_question": "Consider whether an identity or source can be impersonated in this scoped design."
+    },
+    {
+      "element": "audit-log",
+      "category": "T",
+      "status": "considered",
+      "review_question": "Consider unauthorized alteration of payload, metadata, or records."
+    },
+    {
+      "element": "audit-log",
+      "category": "R",
+      "status": "considered",
+      "review_question": "Consider whether an action lacks an attributable access record."
+    },
+    {
+      "element": "audit-log",
+      "category": "I",
+      "status": "considered",
+      "review_question": "Consider unauthorized disclosure of client files or metadata."
+    },
+    {
+      "element": "audit-log",
+      "category": "D",
+      "status": "considered",
+      "review_question": "Consider exhaustion or unavailability of this element or flow."
+    },
+    {
+      "element": "audit-log",
+      "category": "E",
+      "status": "considered",
+      "review_question": "Consider whether access exceeds the authenticated principal authority."
+    },
+    {
+      "element": "upload",
+      "category": "S",
+      "status": "considered",
+      "review_question": "Consider whether an identity or source can be impersonated in this scoped design."
+    },
+    {
+      "element": "upload",
+      "category": "T",
+      "status": "considered",
+      "review_question": "Consider unauthorized alteration of payload, metadata, or records."
+    },
+    {
+      "element": "upload",
+      "category": "R",
+      "status": "considered",
+      "review_question": "Consider whether an action lacks an attributable access record."
+    },
+    {
+      "element": "upload",
+      "category": "I",
+      "status": "considered",
+      "review_question": "Consider unauthorized disclosure of client files or metadata."
+    },
+    {
+      "element": "upload",
+      "category": "D",
+      "status": "considered",
+      "review_question": "Consider exhaustion or unavailability of this element or flow."
+    },
+    {
+      "element": "upload",
+      "category": "E",
+      "status": "considered",
+      "review_question": "Consider whether access exceeds the authenticated principal authority."
+    },
+    {
+      "element": "download",
+      "category": "S",
+      "status": "considered",
+      "review_question": "Consider whether an identity or source can be impersonated in this scoped design."
+    },
+    {
+      "element": "download",
+      "category": "T",
+      "status": "considered",
+      "review_question": "Consider unauthorized alteration of payload, metadata, or records."
+    },
+    {
+      "element": "download",
+      "category": "R",
+      "status": "considered",
+      "review_question": "Consider whether an action lacks an attributable access record."
+    },
+    {
+      "element": "download",
+      "category": "I",
+      "status": "considered",
+      "review_question": "Consider unauthorized disclosure of client files or metadata."
+    },
+    {
+      "element": "download",
+      "category": "D",
+      "status": "considered",
+      "review_question": "Consider exhaustion or unavailability of this element or flow."
+    },
+    {
+      "element": "download",
+      "category": "E",
+      "status": "considered",
+      "review_question": "Consider whether access exceeds the authenticated principal authority."
+    },
+    {
+      "element": "audit-write",
+      "category": "S",
+      "status": "considered",
+      "review_question": "Consider whether an identity or source can be impersonated in this scoped design."
+    },
+    {
+      "element": "audit-write",
+      "category": "T",
+      "status": "considered",
+      "review_question": "Consider unauthorized alteration of payload, metadata, or records."
+    },
+    {
+      "element": "audit-write",
+      "category": "R",
+      "status": "considered",
+      "review_question": "Consider whether an action lacks an attributable access record."
+    },
+    {
+      "element": "audit-write",
+      "category": "I",
+      "status": "considered",
+      "review_question": "Consider unauthorized disclosure of client files or metadata."
+    },
+    {
+      "element": "audit-write",
+      "category": "D",
+      "status": "considered",
+      "review_question": "Consider exhaustion or unavailability of this element or flow."
+    },
+    {
+      "element": "audit-write",
+      "category": "E",
+      "status": "considered",
+      "review_question": "Consider whether access exceeds the authenticated principal authority."
+    }
+  ],
+  "threats": [
+    {
+      "id": "T01",
+      "priority": "high",
+      "assessment": "scenario judgment, not measured likelihood",
+      "threat": "An authenticated tenant can request another tenant file by changing the object identifier.",
+      "element": "download",
+      "categories": [
+        "I",
+        "E"
+      ],
+      "mitigation": "Bind lookup to the authenticated tenant and object identifier; deny mismatches.",
+      "owner": "API owner (fictional role)",
+      "target_date": "2026-11-19",
+      "validation": "local toy cross-tenant denial test; production implementation not verified"
+    },
+    {
+      "id": "T02",
+      "priority": "medium",
+      "assessment": "scenario judgment, not measured likelihood",
+      "threat": "An upload exceeds permitted size or type and consumes service resources.",
+      "element": "upload",
+      "categories": [
+        "T",
+        "D"
+      ],
+      "mitigation": "Enforce size and type rules at ingress and storage; add rejection tests.",
+      "owner": "Upload owner (fictional role)",
+      "target_date": "2026-11-19",
+      "validation": "proposed only, not executed"
+    },
+    {
+      "id": "T03",
+      "priority": "medium",
+      "assessment": "scenario judgment, not measured likelihood",
+      "threat": "File access cannot be attributed because the service records no access event.",
+      "element": "audit-write",
+      "categories": [
+        "R"
+      ],
+      "mitigation": "Record tenant, object, action, outcome and server timestamp with restricted append access.",
+      "owner": "Platform owner (fictional role)",
+      "target_date": "2026-11-20",
+      "validation": "proposed only, not executed"
+    }
+  ],
+  "exhaustiveness": "42 considered cells demonstrate enumeration coverage; not evidence all threats were found"
+}

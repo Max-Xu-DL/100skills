@@ -14,6 +14,8 @@ An AIMax (@Max_XuY) collection for English-speaking founders, consultants, agenc
 
 | 004 | [Brand Positioning](skills/brand-positioning/) | Tie a positioning promise to supplied facts and explicit assumptions | 3.65/5 | [ZIP](downloads/004-brand-positioning-v1.0.0.zip) |
 
+| 005 | [Threat Modelling](skills/threat-modelling/) | Structure a STRIDE review and reproduce a local tenant-isolation example | 3.78/5 | [ZIP](downloads/005-threat-modelling-v1.0.0.zip) |
+
 Each skill has its own shareable directory URL and a separate ZIP download. More entries will be added as they are reviewed; this repository does not claim that 100 skills have already been tested.
 
 ## How to use a skill

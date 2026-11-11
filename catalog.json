@@ -41,6 +41,16 @@
       "trace_score_5": 3.65,
       "source": "https://github.com/arnabbagxd/Brand-building-skills/tree/4a0a8b5b7a0f64bf0fc551978a18a591670a5223/skills/brand-positioning",
       "license": "MIT"
+    },
+    {
+      "issue": "005",
+      "slug": "threat-modelling",
+      "path": "skills/threat-modelling",
+      "download": "downloads/005-threat-modelling-v1.0.0.zip",
+      "sha256": "f47775c4b9a41757684504c6de0728ea507b9ca1d767defaae6cc1846e25a93b",
+      "trace_score_5": 3.775,
+      "source": "https://github.com/vinayaklatthe/microsoft-security-skills/tree/02e37e1977773e6897cc3d60710b6c766c233e90/skills/threat-modelling",
+      "license": "MIT"
     }
   ]
 }

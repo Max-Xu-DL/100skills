@@ -1,0 +1,78 @@
+{
+  "scenario": "AIMax-authored fictional multitenant client-file portal; no actual customer system",
+  "assets": [
+    "client files",
+    "tenant identifiers",
+    "access records"
+  ],
+  "scope": "upload and download authorization plus access records",
+  "out_of_scope": [
+    "identity-provider internals",
+    "payments",
+    "production penetration testing"
+  ],
+  "nodes": [
+    {
+      "id": "browser",
+      "kind": "external entity",
+      "zone": "customer"
+    },
+    {
+      "id": "api",
+      "kind": "process",
+      "zone": "service"
+    },
+    {
+      "id": "object-store",
+      "kind": "data store",
+      "zone": "storage-provider"
+    },
+    {
+      "id": "audit-log",
+      "kind": "data store",
+      "zone": "service"
+    }
+  ],
+  "flows": [
+    {
+      "id": "upload",
+      "from": "browser",
+      "to": "api",
+      "data": "file bytes and metadata",
+      "crosses": [
+        "customer-service"
+      ]
+    },
+    {
+      "id": "download",
+      "from": "api",
+      "to": "object-store",
+      "data": "tenant-scoped object read",
+      "crosses": [
+        "service-storage"
+      ]
+    },
+    {
+      "id": "audit-write",
+      "from": "api",
+      "to": "audit-log",
+      "data": "minimal access event",
+      "crosses": []
+    }
+  ],
+  "boundaries": [
+    "customer-service",
+    "service-storage"
+  ],
+  "assumptions": [
+    "trusted authenticated tenant identifier supplied by a server-side session",
+    "object store receives requests only through service role in this toy scope"
+  ],
+  "controls_are": "proposals unless a local toy test is explicitly recorded",
+  "remodel_triggers": [
+    "new external integration",
+    "new trust boundary",
+    "new data classification",
+    "major authorization refactor"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "method": "actual in-memory Python before/after reproduction plus authored report completeness checks",
+  "python": "3.11.15",
+  "checks": {
+    "weak_cross_tenant_read_reproduced": true,
+    "scoped_cross_tenant_read_denied": true,
+    "scoped_same_tenant_read_allowed": true,
+    "scoped_missing_file_denied": true,
+    "scoped_unauthenticated_read_denied": true,
+    "complete_coverage_and_action_records": true
+  },
+  "negative_cases": [
+    {
+      "case": "missing-owner",
+      "rejected": true
+    },
+    {
+      "case": "missing-target-date",
+      "rejected": true
+    },
+    {
+      "case": "skipped-stride-cell",
+      "rejected": true
+    }
+  ],
+  "coverage_cells": 42,
+  "ranked_threat_records": 3,
+  "passed": true,
+  "not_measured": [
+    "production security",
+    "independent model adherence",
+    "host skill triggering",
+    "all threats discovered",
+    "cloud IAM enforcement",
+    "Microsoft Threat Modeling Tool execution"
+  ]
+}
