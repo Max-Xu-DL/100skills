@@ -51,6 +51,16 @@
       "trace_score_5": 3.775,
       "source": "https://github.com/vinayaklatthe/microsoft-security-skills/tree/02e37e1977773e6897cc3d60710b6c766c233e90/skills/threat-modelling",
       "license": "MIT"
+    },
+    {
+      "issue": "006",
+      "slug": "brand-context",
+      "path": "skills/brand-context",
+      "download": "downloads/006-brand-context-v1.0.0.zip",
+      "sha256": "5874d281e969b03db2915d1d1bc9849a4b03fd3d2b3ee472162566f32b9ca746",
+      "trace_score_5": 3.05,
+      "source": "https://github.com/arnabbagxd/Brand-building-skills/tree/4a0a8b5b7a0f64bf0fc551978a18a591670a5223/skills/brand-context",
+      "license": "MIT"
     }
   ]
 }

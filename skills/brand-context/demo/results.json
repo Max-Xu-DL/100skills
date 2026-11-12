@@ -1,0 +1,27 @@
+{
+  "kind": "AIMax-authored deterministic local demonstration",
+  "fictional_brand": true,
+  "python": "3.11.15",
+  "sections": 6,
+  "fields": 18,
+  "fields_changed": [
+    "Brand Personality.Tone"
+  ],
+  "fields_preserved": 17,
+  "checks_passed": 6,
+  "negative_cases_rejected": [
+    "missing-name",
+    "missing-audience",
+    "missing-metrics",
+    "stale-update"
+  ],
+  "before_sha256": "2d3261383ea3e315c99509e5999a3e4fc5211cfac714b1dec80d0c72bb68e607",
+  "after_sha256": "8a215092794a3156bff31a7b6b3d883cc8745e7967c4d9651e8eb12689c15de4",
+  "limitations": [
+    "Not an independent model run",
+    "No host auto-loading tested",
+    "No business results measured",
+    "Authored copy examples are not model outputs",
+    "Validation checks presence, not truth or copy quality"
+  ]
+}

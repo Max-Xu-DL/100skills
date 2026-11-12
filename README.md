@@ -16,6 +16,8 @@ An AIMax (@Max_XuY) collection for English-speaking founders, consultants, agenc
 
 | 005 | [Threat Modelling](skills/threat-modelling/) | Structure a STRIDE review and reproduce a local tenant-isolation example | 3.78/5 | [ZIP](downloads/005-threat-modelling-v1.0.0.zip) |
 
+| 006 | [Brand Context](skills/brand-context/) | Capture a reusable English brand brief and inspect scoped updates | 3.05/5 | [ZIP](downloads/006-brand-context-v1.0.0.zip) |
+
 Each skill has its own shareable directory URL and a separate ZIP download. More entries will be added as they are reviewed; this repository does not claim that 100 skills have already been tested.
 
 ## How to use a skill
